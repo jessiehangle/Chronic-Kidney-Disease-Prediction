@@ -25,3 +25,8 @@ Step 2: With the Imputed data: While imputing missing data, we have carefully ma
 
 
 Step 3: Objective of our analysis is to create easy to use screening tool. Although Model 3 has all significant variables, some of these variables such as CHF, PVD, HDL or family history of hypertension can not be obtained by easy-to-use screening tool. Some people might not be aware of these parameters while filling up the data in screening tool. We have further tried to reduce number of variables in model 3 by building new model (Model 4) including 7 significant variables which are Age, Gender, Activity, Hypertension, Diabetes, CVD and Anemia. According to the case study, Race group also plays an important role in increasing risk of having CKD, so we consider Race Group in our reduced model.
+![Screen Shot 0031-04-21 at 21 11 17](https://user-images.githubusercontent.com/49817101/56478117-a2b3f080-647a-11e9-9719-1e5bc5e4d2f9.png)
+
+### Comparison between four models
+As we can see from Table 4, there is a significant drop in AIC from Model2 to Model3 which means that our Model 3 is more significant compared to Model2. The difference between the null deviance and the residual deviance shows how our model is doing against the null model (a model with only the intercept). The wider this gap, the better. Analyzing the table, we can see the drop-in deviance in model 3. The accuracy of each model is above 90% which is quite a good result.
+

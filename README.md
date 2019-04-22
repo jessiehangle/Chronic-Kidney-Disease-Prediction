@@ -47,3 +47,9 @@ screening tool do not require any extra medical knowledge or exams except one’
 record. 
 Accuracy: An accuracy check has been implemented on the training dataset. As a result, 88% of the population were correctly classified based on the points generated from our screening tool. The simple screening tool presented less accurate level compared to Model 3. This is because of shortages in some important variable such as HDL and PVD but it's quite impractical to ask in our survey. Appendix 4 shows the difference in prediction between screening tool and our full model.
 
+![Screen Shot 0031-04-21 at 21 23 52](https://user-images.githubusercontent.com/49817101/56478246-d3e0f080-647b-11e9-98b5-92a1b2c9b96c.png)
+
+## LIMITATIONS
+Imputation approach was used to replace the missing value for generating a completed dataset for the model prediction. However, the imputing process might potentially weaken the validity of the result and lead us to bias interpretation on it. The significant factors we defined after replacing the missing values might differ from ones where the missing values are present. On the other hand, the dataset obtained also limit our ability to detect a perfect set of significant risk factors that put people at high risk of having CKD. For example, family history of kidney disease should be considered but this variable was not included in the dataset. To overcome the limitations mentioned above, a wider range of data needs to be included. In addition, certain considerable method to obtain data, such as developing clearer and straightforward questions for interviews, should be implemented to minimize the amount of missing values.
+
+

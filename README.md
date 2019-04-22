@@ -16,5 +16,9 @@ For our case study dataset, we chose multiple imputation method. The aim of the 
 ## Model Fitting 
 Once the imputation of the data is done, we split the data into training set and test set. Training set is used to fit our model which we will be testing over the testing set. Division of data is done such that 75% of given data is train data and 25% is test data.
 Step 1: Working with the perfect set of data. We have created a logistic regression model using the perfect train data set (data without any missing value).
+
+![Screen Shot 0031-04-21 at 21 12 28](https://user-images.githubusercontent.com/49817101/56478074-3a650f00-647a-11e9-8e05-70ebae7bd778.png)
+
 Step 2: With the Imputed data: While imputing missing data, we have carefully maintained the density curve of each variable. Hence, we created the model with the imputed dataset which analyses the significant variable in model. Using Logistic Regression, we then created Model 2 with all 33 variables and applied backward elimination approach to identify variables which are most significant. These variables then were included in Model 3.
+
 Step 3: Objective of our analysis is to create easy to use screening tool. Although Model 3 has all significant variables, some of these variables such as CHF, PVD, HDL or family history of hypertension can not be obtained by easy-to-use screening tool. Some people might not be aware of these parameters while filling up the data in screening tool. We have further tried to reduce number of variables in model 3 by building new model (Model 4) including 7 significant variables which are Age, Gender, Activity, Hypertension, Diabetes, CVD and Anemia. According to the case study, Race group also plays an important role in increasing risk of having CKD, so we consider Race Group in our reduced model.

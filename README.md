@@ -39,3 +39,11 @@ different thresholds level. As we can see from the chart, we get the most accura
 
 ### Confusion Matrix
 Confusion matrix reflects changes in classification probability from logistic regression result. In Model 3, two confusion matrix were obtained to reflect accuracy level according to change in thresholds. When we decrease threshold to 0.3, there is an increase in both true positive and false positive while there is an huge decrease in number of true negative and false negative. Similarly the number of total true positive and false positive in model 4 also go up according change in thresholds level. We can see from these results below, model 4 only contains 8 variables but this model can predict good results compared to model 3 with 14 variables. This confirms the importance of all 8 variables in model 4 and based on these variables we built our screening tool.
+
+![Screen Shot 0031-04-21 at 21 22 17](https://user-images.githubusercontent.com/49817101/56478223-9b411700-647b-11e9-9156-12dcd3bd6a6d.png)
+
+Simplicity: The main objective for this screening tool is to be easy to use. Questions that are being asked in our
+screening tool do not require any extra medical knowledge or exams except one’s demographic information and selfhealth
+record. 
+Accuracy: An accuracy check has been implemented on the training dataset. As a result, 88% of the population were correctly classified based on the points generated from our screening tool. The simple screening tool presented less accurate level compared to Model 3. This is because of shortages in some important variable such as HDL and PVD but it's quite impractical to ask in our survey. Appendix 4 shows the difference in prediction between screening tool and our full model.
+
